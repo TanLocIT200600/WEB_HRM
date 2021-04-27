@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "ListEmployee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h1>
+        Danh sách nhân viên
+    </h1>
+    <div class="row">
+        <button><i class="fas fa-plus"></i> Thêm nhân viên</button>
+        <div class="form-check">
+            <label>Chọn : </label>
+            <input type="radio" class="form-check-input" name="optradio">Mã nhân viên
+            <input type="radio" class="form-check-input" name="optradio">Tên nhân viên
+            <input type="radio" class="form-check-input" name="optradio">Phòng ban
+        </div>
+    </div>
+    <div class="row">
+        <button><i class="fas fa-tasks"></i> Chọn hết</button>
+        <button><i class="fas fa-bars"></i> Bỏ chọn</button>
+        <input type="text" placeholder="Mời nhập..." />
+        <button><i class="fas fa-search"></i> Tìm kiếm</button>
+        <button><i class="fas fa-sync-alt"></i> Tải lại</button>
+    </div>
+</div>
+
+
