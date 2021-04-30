@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "ListEmployee";
+    ViewBag.Title = "List Employee";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -12,17 +12,23 @@
         <button><i class="fas fa-plus"></i> Thêm nhân viên</button>
         <div class="form-check">
             <label>Chọn : </label>
-            <input type="radio" class="form-check-input" name="optradio">Mã nhân viên
-            <input type="radio" class="form-check-input" name="optradio">Tên nhân viên
-            <input type="radio" class="form-check-input" name="optradio">Phòng ban
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Mã nhân viên
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Tên nhân viên
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Phòng ban
+            </label>
         </div>
     </div>
     <div class="row">
-        <button><i class="fas fa-tasks"></i> Chọn hết</button>
-        <button><i class="fas fa-bars"></i> Bỏ chọn</button>
+        <button class="btn btn-all-click"><i class="fas fa-tasks "></i> Chọn hết</button>
+        <button class="btn btn-unclick"><i class="fas fa-bars "></i> Bỏ chọn</button>
         <input type="text" placeholder="Mời nhập..." />
-        <button><i class="fas fa-search"></i> Tìm kiếm</button>
-        <button><i class="fas fa-sync-alt"></i> Tải lại</button>
+        <button class="btn btn-search"><i class="fas fa-search "></i> Tìm kiếm</button>
+        <button class="btn btn-reload"><i class="fas fa-sync-alt "></i> Tải lại</button>
     </div>
 </div>
 
