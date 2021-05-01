@@ -174,3 +174,34 @@ a[data-toggle="collapse"] {
     margin-left: .5%;
     margin-top: 3%;
 }
+.list-employee .radio-inline {
+    margin: .5rem 1rem;
+}
+.list-employee .left-button
+.btn-delete_employee {
+    background-color: #F91414;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.list-employee .button-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    margin:2rem;
+}
+.list-employee .left-button .btn-add_award {
+    background-color: #5884F6;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.list-employee .left-button .btn-add_discipline {
+    background-color: #AE7E02;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.list-employee .right-button .btn-adsent {
+    background-color: #e717ad;
+    color: white;
+    padding: 0.5rem 1.5rem;
+}
