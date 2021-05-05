@@ -166,6 +166,8 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\ListEmployee.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Decentralization.cshtml" />
+    <Content Include="Views\Home\ListUsers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

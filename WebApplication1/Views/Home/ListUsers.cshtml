@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "ListUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="list-users">
+        <h1>
+            Danh sách người dùng 
+        </h1>
+        <div class="list-detail">
+            <div class="row">
+                <button class="btn add-employee"><i class="fas fa-plus"></i> Thêm nhân viên</button>
+                <div class="form-check d-flex">
+                    <span>Chọn : </span>
+                    <label class="radio-inline"><input type="radio" name="optradio" class="mr-2">Tên tài khoản</label>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <input class="input-search" type="text" placeholder="Mời nhập..." />
+                <button class="btn btn-search"><i class="fas fa-search"></i> Tìm kiếm</button>
+                <button class="btn btn-reload"><i class="fas fa-sync-alt"></i> Tải lại</button>
+            </div>
+        </div>
+
+        <div class="row text-center detail-employee">
+            <div class="col-lg-1">Chọn</div>
+            <div class="col-lg-2">Tên tài khoản</div>
+            <div class="col-lg-2">Mật khẩu</div>
+            <div class="col-lg-1">Tên quyền</div>
+            <div class="col-lg-2">Chức năng</div>
+        </div>
+    </div>
+

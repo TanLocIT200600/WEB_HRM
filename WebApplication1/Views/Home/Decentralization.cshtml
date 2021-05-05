@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Decentralization";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="Decentralization">
+        <h1>
+            Phân quyền
+        </h1>
+        <div class="list-detail">
+            <div class="row">
+                <button class="btn add-employee"><i class="fas fa-plus"></i> Thêm vai trò</button>
+                <div class="form-check d-flex">
+                    <span>Chọn : </span>
+                    <label class="radio-inline"><input type="radio" name="optradio" class="mr-2">Mã vai trò</label>
+                    <label class="radio-inline"><input type="radio" name="optradio" class="mr-2">Tên vai trò</label>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <button class="btn all-choose"><i class="fas fa-tasks"></i> Chọn hết</button>
+                <button class="btn unchoose"><i class="fas fa-bars"></i> Bỏ chọn</button>
+                <input class="input-search" type="text" placeholder="Mời nhập..." />
+                <button class="btn btn-search"><i class="fas fa-search"></i> Tìm kiếm</button>
+                <button class="btn btn-reload"><i class="fas fa-sync-alt"></i> Tải lại</button>
+            </div>
+        </div>
+
+        <div class="row text-center detail-employee">
+            <div class="col-lg-1">Chọn</div>
+            <div class="col-lg-2">Mã quyền</div>
+            <div class="col-lg-2">Tên quyền</div>
+            <div class="col-lg-1">Ghi chú</div>
+        </div>
+        <div class="row container button-footer">
+            <div class="left-button">
+                <button class="btn btn-delete_role mr-2"><i class="fas fa-user-minus"></i> Xóa vai trò</button>
+            </div>
+        </div>
+    </div>
+
